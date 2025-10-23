@@ -30,10 +30,3 @@ This project is a simple test and demonstration of using React Router 6 in a Rea
 ## Purpose
 This project is for testing and learning how to set up and use React Router 6 in a modern React app.
 
----
-
-Feel free to modify or extend the routes to experiment further!
-    },
-  },
-])
-```
