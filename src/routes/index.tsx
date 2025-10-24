@@ -1,7 +1,7 @@
 import { createHashRouter } from 'react-router-dom'
 import App from '../app/App'
-import { AboutPage } from '../page/about'
-import HomePage from '../page/home'
+import { AboutPage } from '../pages/about'
+import HomePage from '../pages/home'
 
  const router = createHashRouter([
     {
