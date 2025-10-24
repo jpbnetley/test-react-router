@@ -7,9 +7,9 @@ export type MainLayoutProps = {
 
 export function MainLayout({ children, topNav }: MainLayoutProps) {
   return (
-    <>
-      <nav className="main-layout">{topNav}</nav>
+    <div className="main-layout">
+      <nav className='top-nav'>{topNav}</nav>
       <main>{children}</main>
-    </>
+    </div>
   );
 }
