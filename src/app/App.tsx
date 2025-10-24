@@ -7,7 +7,7 @@ import { TopNav } from '../components/top-nav'
 function App() {
 
   return (
-    <MainLayout nav={<TopNav />}>
+    <MainLayout topNav={<TopNav />}>
       <Outlet />
     </MainLayout>
   )

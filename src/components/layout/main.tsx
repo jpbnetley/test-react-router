@@ -2,10 +2,10 @@ import './styles.css'
 
 export type MainLayoutProps = {
   children: React.ReactNode;
-  nav: React.ReactNode;
+  topNav: React.ReactNode;
 };
 
-export function MainLayout({ children, nav }: MainLayoutProps) {
+export function MainLayout({ children, topNav: nav }: MainLayoutProps) {
   return (
     <div>
       <nav className="main-layout">{nav}</nav>
