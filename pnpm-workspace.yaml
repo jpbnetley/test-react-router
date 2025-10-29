@@ -1,0 +1,7 @@
+packages:
+  - react-router
+  - tanstack-router
+
+onlyBuiltDependencies:
+  - esbuild
+  - unrs-resolver
