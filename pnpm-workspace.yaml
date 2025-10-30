@@ -1,6 +1,8 @@
 packages:
   - react-router
   - tanstack-router
+  - tanstack-router-file
+  - lib
 
 onlyBuiltDependencies:
   - esbuild

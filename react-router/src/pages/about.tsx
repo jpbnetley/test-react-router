@@ -1,5 +1,5 @@
-import { StandardCard } from "../components/cards/standarrd-card";
-import Header from "../components/header";
+import { Header, StandardCard } from "lib";
+
 
 export function AboutPage() {
   return <>

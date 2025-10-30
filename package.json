@@ -14,9 +14,17 @@
   "type": "module",
   "packageManager": "pnpm@10.20.0+sha512.cf9998222162dd85864d0a8102e7892e7ba4ceadebbf5a31f9c2fce48dfce317a9c53b9f6464d1ef9042cba2e02ae02a9f7c143a2b438cd93c91840f0192b9dd",
   "scripts": {
+    "build": "pnpm -r build",
     "react-router:dev": "pnpm --filter react-router run dev",
     "react-router:build": "pnpm --filter react-router run build",
     "tanstack-router:dev": "pnpm --filter tanstack-router run dev",
-    "tanstack-router:build": "pnpm --filter tanstack-router run build"
+    "tanstack-router:build": "pnpm --filter tanstack-router run build",
+    "tanstack-router-file:dev": "pnpm --filter tanstack-router-file run dev",
+    "tanstack-router-file:build": "pnpm --filter tanstack-router-file run build",
+    "lib:dev": "pnpm --filter lib run dev",
+    "lib:build": "pnpm --filter lib run build",
+    "lib:play": "pnpm --filter lib run play",
+    "lib:test": "pnpm --filter lib run test",
+    "lib:typecheck": "pnpm --filter lib run typecheck"
   }
 }

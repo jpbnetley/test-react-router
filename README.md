@@ -18,14 +18,18 @@ pnpm i
 ### Running the Project
 
 ```bash
+  pnpm run lib:dev
   pnpm run react-router:dev
   pnpm run tanstack-router:dev
+  pnpm run tanstack-router-file:dev
 ```
 
 ### Building the project
 ```bash
+  pnpm run lib:build
   pnpm run react-router:build
   pnpm run tanstack-router:build
+  pnpm run tanstack-router-file:build
 ```
 
 This will launch the development server. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.

@@ -1,8 +1,9 @@
 
 import { Outlet } from 'react-router-dom'
 import './App.css'
-import { MainLayout } from '../components/layout/main'
 import { TopNav } from '../components/top-nav'
+import { MainLayout } from 'lib'
+import 'lib/styles.css';
 
 function App() {
 
