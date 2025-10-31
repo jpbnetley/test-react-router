@@ -7,7 +7,7 @@ This project is designed to test and compare the usage of [React Router](https:/
 ### Prerequisites
 
 - Node.js (v18 or higher recommended)
-- npm or yarn
+- pnpm
 
 ### Installation
 
