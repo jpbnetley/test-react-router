@@ -141,6 +141,9 @@ importers:
       tailwindcss:
         specifier: ^4.1.16
         version: 4.1.16
+      zod:
+        specifier: ^4.1.12
+        version: 4.1.12
     devDependencies:
       '@tanstack/eslint-config':
         specifier: ^0.3.2
