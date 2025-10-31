@@ -1,6 +1,9 @@
 # Test React Router & TanStack Router
 
-This project is designed to test and compare the usage of [React Router](https://reactrouter.com/) and [TanStack Router](https://tanstack.com/router) in a React application.
+This project is designed to test and compare the usage of the following react router libraries.
+-  [React Router](https://reactrouter.com/)
+-  [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/routing/code-based-routing)
+- [Tanstack File router](https://tanstack.com/router/v1/docs/framework/react/routing/file-based-routing)
 
 ## Getting Started
 
@@ -17,16 +20,25 @@ pnpm i
 
 ### Running the Project
 
+#### Run common library
 ```bash
-  pnpm run lib:dev
+pnpm run lib:dev
+```
+#### Running the router project
+```bash
   pnpm run react-router:dev
   pnpm run tanstack-router:dev
   pnpm run tanstack-router-file:dev
 ```
 
 ### Building the project
+
+#### Build common library
 ```bash
-  pnpm run lib:build
+pnpm run lib:build
+```
+#### RuBuilding the router project
+```bash
   pnpm run react-router:build
   pnpm run tanstack-router:build
   pnpm run tanstack-router-file:build
