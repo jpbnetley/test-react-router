@@ -31,9 +31,9 @@ const ProfileIndexRoute = ProfileIndexRouteImport.update({
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProfileUnknownRoute = ProfileUnknownRouteImport.update({
-  id: '/unknown',
-  path: '/unknown',
-  getParentRoute: () => ProfileRoute,
+  id: '/profile/unknown',
+  path: '/profile/unknown',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const ProfileIdRoute = ProfileIdRouteImport.update({
   id: '/profile/$id',
@@ -81,6 +81,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ProfileIdRoute: typeof ProfileIdRoute
+  ProfileUnknownRoute: typeof ProfileUnknownRoute
   ProfileIndexRoute: typeof ProfileIndexRoute
 }
 
@@ -109,10 +110,10 @@ declare module '@tanstack/react-router' {
     }
     '/profile/unknown': {
       id: '/profile/unknown'
-      path: '/unknown'
+      path: '/profile/unknown'
       fullPath: '/profile/unknown'
       preLoaderRoute: typeof ProfileUnknownRouteImport
-      parentRoute: typeof ProfileRoute
+      parentRoute: typeof rootRouteImport
     }
     '/profile/$id': {
       id: '/profile/$id'
@@ -128,6 +129,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ProfileIdRoute: ProfileIdRoute,
+  ProfileUnknownRoute: ProfileUnknownRoute,
   ProfileIndexRoute: ProfileIndexRoute,
 }
 export const routeTree = rootRouteImport
