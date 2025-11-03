@@ -2,13 +2,13 @@ import { profileRouteSearchSchema } from '@/schemas/routes/profile/profile-route
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/profile/$id')({
-  component: ProfilePage,
+  component: RouteComponent,
   validateSearch: (search) => profileRouteSearchSchema.parse(search),
 })
 
-function ProfilePage() {
+function RouteComponent() {
   const { id } = Route.useParams();
-  const { name, surname} = Route.useSearch()
+  const { name } = Route.useSearch()
   
   return (
     <>

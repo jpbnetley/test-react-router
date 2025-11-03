@@ -2,10 +2,10 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Header } from 'lib'
 
 export const Route = createFileRoute('/')({
-  component: App,
+  component: RouteComponent,
 })
 
-function App() {
+function RouteComponent() {
   return (
    <Header text="Home Page" />
   )
