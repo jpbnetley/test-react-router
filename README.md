@@ -1,8 +1,8 @@
 # Test React Router & TanStack Router
 
 This project is designed to test and compare the usage of the following react router libraries.
--  [React Router](https://reactrouter.com/)
--  [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/routing/code-based-routing)
+- [React Router](https://reactrouter.com/)
+- [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/routing/code-based-routing)
 - [Tanstack File router](https://tanstack.com/router/v1/docs/framework/react/routing/file-based-routing)
 
 ## Getting Started
