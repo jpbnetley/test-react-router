@@ -1,4 +1,4 @@
-import HomePage from "@/pages/home"
+import { Header } from "lib";
 import { createRoute, createRouter } from "@tanstack/react-router"
 import { aboutRoute } from "./about"
 import profileRoutes from "./profile"
@@ -9,6 +9,11 @@ export const indexRoute = createRoute({
   path: '/',
   component: HomePage,
 })
+
+function HomePage() {
+  return <Header text="Home Page" />;
+}
+
 
 const routeTree = rootRoute.addChildren([indexRoute, aboutRoute, ...profileRoutes])
 

@@ -1,6 +1,5 @@
 import { Header, StandardCard } from "lib";
 
-
 export function AboutPage() {
   return <>
   <Header text="About Page" />
