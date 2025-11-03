@@ -8,7 +8,7 @@ export const Route = createFileRoute('/profile/$id')({
 
 function ProfilePage() {
   const { id } = Route.useParams();
-  const { name } = Route.useSearch()
+  const { name, surname} = Route.useSearch()
   
   return (
     <>
