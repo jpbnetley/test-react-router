@@ -9,7 +9,6 @@ function App() {
 
   return (
     <MainLayout topNav={<TopNav />}>
-      <p>app</p>
       <Outlet />
     </MainLayout>
   )

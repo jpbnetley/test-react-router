@@ -12,22 +12,22 @@ import { UnknownProfilePage } from '../pages/unknown-profile'
       children: [
         {
          index: true,
-          Component: () => <HomePage />,
+          Component: HomePage,
         },
         {
           path: 'about',
-          Component: () => <AboutPage />,
+          Component: AboutPage,
         },
         {
           path: 'profile',
           children: [
             {
               path: ':id',
-              Component: () => <ProfilePage />,
+              Component: ProfilePage,
             },
             {
               path: 'unknown',
-              Component: () => <UnknownProfilePage />,
+              Component: UnknownProfilePage,
             }
           ]
         }
