@@ -12,30 +12,30 @@
     "check": "prettier --write . && eslint --fix"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.16",
-    "@tanstack/react-devtools": "^0.7.11",
-    "@tanstack/react-router": "^1.134.9",
-    "@tanstack/react-router-devtools": "^1.134.9",
+    "@tailwindcss/vite": "^4.2.2",
+    "@tanstack/react-devtools": "^0.10.1",
+    "@tanstack/react-router": "^1.168.10",
+    "@tanstack/react-router-devtools": "^1.166.11",
     "lib": "workspace:*",
-    "lucide-react": "^0.545.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "tailwindcss": "^4.1.16",
-    "zod": "^4.1.12"
+    "lucide-react": "^1.7.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.2",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tanstack/eslint-config": "^0.3.2",
     "@testing-library/dom": "^10.4.1",
-    "@testing-library/react": "^16.3.0",
-    "@types/node": "^22.19.0",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "@vitejs/plugin-react": "^5.1.0",
-    "jsdom": "^27.1.0",
-    "prettier": "^3.6.2",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "jsdom": "^29.0.1",
+    "prettier": "^3.8.1",
     "typescript": "^5.9.3",
-    "vite": "^7.1.12",
-    "vitest": "^3.2.4",
-    "web-vitals": "^5.1.0"
+    "vite": "^8.0.3",
+    "vitest": "^4.1.2",
+    "web-vitals": "^5.2.0"
   }
 }
